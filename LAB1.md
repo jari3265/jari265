@@ -5,67 +5,22 @@
 
 ## Part 1 - GitHub Profile
 
-1. Jari3265
+1. jari3265(FIXTHISURL-https://github.com)
 
 ## Part 2 - Research
 
 | Windows | Linux / Mac | Action |
 | ---     | ---         | ---    |
-| help    | man         | Displays help about Windows PowerShell cmdlets and concepts       |
-| Get-Location | pwd    |   Path
-                            ---
-                            C:\Users\jay jariwala     |
-| Get-ChildItem | ls    |     Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----        23-01-2024     01:14                .cache
-d-----        30-01-2025     20:28                .docker
-d-----        23-01-2024     01:14                .eclipse
-d-----        02-11-2023     03:15                .ms-ad
-d-----        07-11-2023     13:32                .Origin
-d-----        23-01-2024     01:14                .p2
-d-----        07-11-2023     13:32                .QtWebEngineProcess
-d-----        01-09-2024     05:08                .VirtualBox
-d-----        23-01-2024     01:19                .vscode
-d-----        02-06-2025     21:10                abc
-d-r---        12-11-2024     23:04                Contacts
-d-r---        12-11-2024     21:19                Desktop
-d-r---        09-07-2025     22:39                Downloads
-d-r---        12-11-2024     23:04                Favorites
-d-r---        12-11-2024     23:04                Links
-d-r---        12-11-2024     23:04                Music
-dar---        29-07-2025     16:59                OneDrive
-d-r---        12-11-2024     23:04                Saved Games
-d-r---        12-11-2024     23:04                Searches
-d-----        14-07-2025     11:50                TreasureHunt
-d-r---        12-11-2024     23:04                Videos
-d-----        08-03-2025     17:03                VirtualBox VMs
--a----        21-08-2025     17:47             28 .bash_history
--a----        14-09-2024     16:02            185 .gitconfig
--a----        01-07-2025     15:55              5 world.txt   |
-
-
-| mkdir   | mkdir       |    Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----        25-08-2025     17:09                1
-d-----        25-08-2025     17:09                2
-d-----        25-08-2025     17:09                45
-d-----        25-08-2025     17:09                3
-d-----        25-08-2025     17:09                clear    |
-
-| Set-Location | cd     |     ---   |
-
-| New-Item | touch      |   
-    Directory: C:\Users\jay jariwala
-
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
--a----        25-08-2025     17:11              0 12     |
-
-| Move-Item | mv        |        |
-| Copy-Item | cp        |        |
-| Remove-Item | rm      |        |
-| notepad.exe | vim     |        |
+| help    | man         |   Displays help about Windows PowerShell cmdlets and concepts.     |
+| Get-Location | pwd    |  It helps to lacate the path       |
+| Get-ChildItem | ls    |     It helps to open the path directory   |
+| mkdir   | mkdir       |   cmdlet mkdir at command pipeline position 1    |
+| Set-Location | cd     |   set location at path[0]     |
+| New-Item | touch      |     added new item to path[1]   |
+| Move-Item | mv        |    Move item to path[2]    |
+| Copy-Item | cp        |   copied item in path[3]     |
+| Remove-Item | rm      |   removed item in path [4]     |
+| notepad.exe | vim     | saved into a notepad file        |
 
 ## Part 3 - Command Line Navigation
 
@@ -98,6 +53,3 @@ Put your words here
 ## Citations
 
 To add citations, provide the site and a summary of what it assisted you with.  If generative AI was used, include which generative AI system was used and what prompt(s) you fed it.
-
-
-
