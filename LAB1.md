@@ -20,7 +20,7 @@
 | Move-Item | mv        |    Move item to path[2]    |
 | Copy-Item | cp        |   copied item in path[3]     |
 | Remove-Item | rm      |   removed item in path [4]     |
-| notepad.exe | vim     | saved into a notepad file        |
+| notepad.exe | vim     | It launches the Notepad app       |
 
 ## Part 3 - Command Line Navigation
 
