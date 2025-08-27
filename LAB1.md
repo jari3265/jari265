@@ -37,18 +37,18 @@ My Command Line Shell is: Powershell
 2. Create a directory named `DirA`: mkdir jay\DirA
 3. Create a directory named `Dir B`:  mkdir jay\DirB
 4. Go into `DirA`: cd jay\DirA
-5. Go into `Dir B` from `DirA`: 
-6. Return to your user's home directory:
-7. Create a file named `test.txt`:
-8. Move the file named `test.txt` into `DirA`:
-9. Contents of `test.txt`:
+5. Go into `Dir B` from `DirA`:  cd "C:\Users\Amit Patel\jay\DirB"
+6. Return to your user's home directory: cd .. 
+7. Create a file named `test.txt`:  echo "Hello, PowerShell!" > "test.txt"
+8. Move the file named `test.txt` into `DirA`: Move-Item .\test.txt .\DirA\
+9. Contents of `test.txt`: Get-Content test.txt
 ```
 Put your words here
 ```
-10. Make a copy of `test.txt` named `copy.txt` in `DirA`:
-11. View the contents of `DirA`: 
-12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
-13. Delete / remove both `fodder.txt` AND `Dir B`:
+10. Make a copy of `test.txt` named `copy.txt` in `DirA`: Copy-Item .\test.txt copy.txt
+11. View the contents of `DirA`: Get-ChildItem
+12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:  Copy-Item test.txt 'C:\Users\Amit Patel\jay\DirB\fodder.txt'
+13. Delete / remove both `fodder.txt` AND `Dir B`:  Remove-Item DirB
 
 ## Citations
 
